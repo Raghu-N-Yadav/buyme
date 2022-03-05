@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-> See it live
+> See it live 
+> Redux is there to store data
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
