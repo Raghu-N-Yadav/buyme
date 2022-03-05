@@ -1,0 +1,449 @@
+.app{
+    /* color: rgb(175, 19, 19) */
+  }
+
+.mainHead {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(220, 226, 233);
+    align-items: center;
+    color: black;
+    flex-wrap: wrap;
+}
+.mainTitle {
+    display: flex;
+    margin-left: 2rem;
+    
+}
+.title {
+    font-size: 2.8rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+}
+#logo{
+    /* border: 5px solid black; */
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.search {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lable {
+    /* color: black; */
+    font-weight: 500;
+    /* border: white 2px solid; */
+    padding: 8px;
+    background-color: rgb(199, 211, 223);
+    border-radius: 7px;
+
+}
+.lable:hover {
+    background-color: rgb(144, 149, 155);
+    color:whitesmoke;
+}
+.searchIn {
+    width: 20rem;
+    height: 2.5rem;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom: 2px solid black;
+    background-color:rgb(220, 226, 233);
+    /* border-radius: 7px; */
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: black;
+    font-weight: 500;
+
+}
+.links :hover {
+    color: red;
+}
+.link {
+    color: black;
+
+      text-decoration: none;
+  }
+
+.btnC {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.btn {
+    width: 5rem;
+    height: 2.5rem;
+    margin-right: 3rem;
+    background-color: rgb(199, 211, 223);
+    border-radius: 5rem;
+    font-weight: 500;
+}
+.btn:hover {
+    background-color: rgb(50, 120, 206);
+    color: whitesmoke;
+}
+.mainFooter {
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    color: #929292;
+    flex-wrap: wrap;
+    /* position:absolute; */
+    width:99%;
+    /* bottom: 0; */
+    box-sizing: border-box;
+}
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    transition: 0.3s;
+
+}
+#inputS {
+    background-color: #0F0F0F;
+    color: white;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    padding: 8px;
+    margin-bottom: 2rem;
+}
+.footer10 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+.footer11{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    flex-wrap: wrap;
+}
+.footer19 {
+    display: flex;
+    gap:2rem;
+    /* margin-left: -3rem; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer12 {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.footer22 {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+.footer10 :hover,.footer3 :hover, .footer22 :hover{
+    color: white;
+    transform: scale(1.1, 1.1);
+}
+.categorie {
+    width: 17rem;
+    height: 17rem;
+    background-color: grey;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.3s;
+}
+.categorie:hover {
+    background-color: #DCE2E9;
+    transform: scale(1.2, 1.2);
+}
+.categories {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+.catHead {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 50vh;
+    background: url("../img/cat.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.productPage {
+    background-color:#F6F7FB;
+}
+.imageBox {
+    /* border: 2px solid black; */
+    width: 20rem;
+    width: 15rem;
+}
+.productBox {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 3rem;
+
+}
+.productData {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.productTitle {
+    color: #65686d;
+    font-size: 1.5rem;
+    display: flex;
+    padding-top: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 2px;
+}
+.productDes {
+    color :#68768E;
+}
+.price {
+    color: #68768E;
+    font-size: 1rem;
+}
+.productPrice {
+    color: #393D46;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 1rem;
+}
+.shop {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.shopNow {
+    /* border : 2px solid black; */
+    color: #4D5058;
+    padding: 10px;
+    background-color: #F5F6FA;
+    width: 10rem;
+    transition: 0.3s;
+}
+.shopNow:hover{
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    transform: scale(1.1, 1.1);
+}
+.dollar {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.mydollar {
+    display: flex;
+    gap:0.2rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.pickUpBox {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* background-color: #DCE2E9; */
+
+}
+.topPic {
+    /* width: 20vw; */
+    /* border: 2px solid red; */
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.topImg {
+    height: 13rem;
+    width: 15rem;
+    transition: 0.3s;
+    /* border-radius: 1rem; */
+}
+.topImg:hover {
+    /* border: 2px solid black; */
+    transform: scale(1.1, 1.1);
+}
+.topPicArea {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.topPicSec {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/week.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding: 2rem;
+}
+
+.weeTre {
+    padding: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    /* color:lemonchiffon; */
+}
+
+.monkey {
+    display: flex;
+    justify-content: center;
+}
+.heart {
+    display: flex;
+    justify-content: center;
+}
+.refresh{
+    /* padding: 0.4rem; */
+    margin-left: 2rem;
+    border-radius: 0.9rem;
+    margin-top: -3rem;
+    background-color: white;
+}
+#refresh {
+    height:1vh;
+}
+.newArr {
+    color: red;
+    margin-top:-1rem;
+    /* padding-bottom: 1rem;
+    padding-top: 1rem; */
+    font-weight: bold;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+}
+.shoping{
+    height: 70vh;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.out {
+    color: red;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 1120px) {
+    .mainFooter{
+        position: relative;
+    }
+    .shopNow {
+        width: 10rem;
+    }
+    .links {
+        /* display: none; */
+    }
+    .btn {
+        display: none;
+    }
+    .btnC {
+        position: absolute;
+        right: 0;
+    }
+    .mainHead {
+        /* justify-content: space-around; */
+        justify-content: flex-start;
+        column-gap: 40px;
+    }
+    .cart {
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 915px) {
+    .productBox {
+        flex-direction: column;
+    }
+    .productData {
+        text-align: center;
+    }
+    .productPrice {
+        text-align: center;
+        justify-content: center;
+    }
+    .mainHead {
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+    .mydollar {
+        justify-content: center;
+    }
+    .shoping{
+        height: 30vh;
+    }
+}
+@media only screen and (max-width:385px){
+    .mainHead {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .mainTitle {
+        margin-left: -2rem;
+    }
+    .btnC{
+        align-self: flex-start;
+        margin-left: 2rem;
+    }
+    .footer11 {
+    align-items: center;
+
+    }
+    .shopNow {
+        width: 10rem;
+    }
+    
+}

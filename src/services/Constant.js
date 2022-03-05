@@ -1,0 +1,2 @@
+export const MAKE_CATEGORY = "MAKE_CATEGORY"
+export const GET_CATEGORY = "GET_CATEGORY"
